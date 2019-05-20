@@ -1,0 +1,10 @@
+{
+  "dest_name": "Tableau",
+  "dest_image": "https://slamdata.com/wp-content/uploads/2019/05/Tableau.png",
+  "dest_image_alt": "Tableau's user interface showing three line charts showing the reuse of the cores, fairings and payloads of SpaceX rockets. Starting in 2017 the reuse of cores and payloads is rising.",
+  "dest_ingest_image": "https://slamdata.com/wp-content/uploads/2019/05/TableauPartner-002.png",
+  "dest_ingest_image_alt": "Tableau Partner",
+  "dest_ingest_instructions": "Simply download the CSV from REFORM and access it with Tableau.",
+  "dest_supported_sql": "AWS Redshift, Snowflake, AWS Athena, Google Big Query and MS SQL Server",
+  "dest_url": "https://www.tableau.com"
+}

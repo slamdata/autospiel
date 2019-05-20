@@ -1,0 +1,6 @@
+{
+  "source_name": "MongoDB",
+  "source_blurb": "MongoDB stores data in flexible, JSON-like documents, meaning fields can vary from document to document and data structure can be changed over time. The document model maps to the objects in your application code, making data easy to work with. MongoDB is a distributed database at its core, so high availability, horizontal scaling, and geographic distribution are built in and easy to use.",
+  "source_instance": "MongoDB cluster",
+  "source_url": "https://www.mongodb.com"
+}

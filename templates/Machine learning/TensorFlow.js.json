@@ -1,0 +1,8 @@
+{
+  "dest_name": "TensorFlow.js",
+  "dest_image": "tensorflow_js.png",
+  "dest_ingest_image": "tensorflow_js_ingest.png",
+  "dest_ingest_instructions": "Then simply provide the access link to tf.data.csv with the names of the columns you want to predict.\n\n`tf.data.csv(\"https://reform.example.com/api/tables/3a4f239c-984f-43f5-ab84-86cead94f0c8/live/dataset\", { columnConfigs: { price: { isLabel: true } }});`\n\nREFORM magically transforms the latest data into a mathematically correct analytic ready table and feeds this into your models for training and prediction.",
+  "dest_supported_sql": "AWS Redshift, Google BigQuery, Snowflake, AWS Athena and MS SQL Server",
+  "dest_url": "https://www.tensorflow.org/js"
+}

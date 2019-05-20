@@ -1,0 +1,8 @@
+{
+  "dest_name": "Snowflake",
+  "dest_image": "https://slamdata.com/wp-content/uploads/2019/05/Screen-Shot-2019-05-17-at-12.07.03-PM-1.png",
+  "dest_image_alt": "Snowflake's web user interface showing a SQL query being evaluated and the tabular results thereof.",
+  "dest_ingest_image": "https://slamdata.com/wp-content/uploads/2019/05/asset_office_15_180804_1810-1.jpg",
+  "dest_ingest_image_alt": "Snowflake's web user interface showing a pie chart on a laptop on a wooden desk alongside a Snowflake mug and two plants amongst other things.",
+  "dest_ingest_instructions": "Finally provide the details of an S3 bucket along with your Snowflake database, warehouse, account, username and password and REFORM will transform your data into analytic ready tables in Snowflake."
+}

@@ -1,0 +1,10 @@
+{
+  "dest_name": "TensorFlow",
+  "dest_image": "https://slamdata.com/wp-content/uploads/2019/05/tensorflow-2.png",
+  "dest_image_alt": "The TensorFlow logo on a plain grey background with undulating lines embelishing the top and bottom",
+  "dest_ingest_image": "https://slamdata.com/wp-content/uploads/2019/05/tensorflow_ingest-1.png",
+  "dest_ingest_image_alt": "The TensorFlow logo with shadows to the left and right highlighting the T and F which make up this logo",
+  "dest_ingest_instructions": "Then simply load the dataframe with Pandas.\n\n`pd.read_csv(\"https://reform.example.com/api/tables/3a4f239c-984f-43f5-ab84-86cead94f0c8/live/dataset\")`\n\n You can also optionally download the file `file_name = tf.keras.utils.get_file(\"example\", \"https://reform.example.com/api/tables/3a4f239c-984f-43f5-ab84-86cead94f0c8/live/dataset\")`\n\nREFORM magically transforms the latest data into a mathematically correct analytic ready table and feeds this into your models for training and prediction.",
+  "dest_supported_sql": "AWS Redshift, Google BigQuery, Snowflake, AWS Athena and MS SQL Server",
+  "dest_url": "https://www.tensorflow.org"
+}

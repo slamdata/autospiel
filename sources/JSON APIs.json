@@ -1,0 +1,6 @@
+{
+  "source_name": "JSON APIs",
+  "source_blurb": "JSON APIs contain huge amounts of valuable data. You can find everything from call transcripts to meteorological data and from social media posts to banking data in JSON APIs. This way of accessing data is more commonly referred to as [\"REST APIs\"](https://en.wikipedia.org/wiki/Representational_state_transfer) and even just \"APIs\" as JSON is the modern standard for data. JSON owes this esteem to its numerous advantages such as how easily it maps to application and device data structures, compound documents and sparse fieldsets.",
+  "source_instance": "API endpoints",
+  "source_url": "https://en.wikipedia.org/wiki/Web_API"
+}
