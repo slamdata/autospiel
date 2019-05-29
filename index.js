@@ -62,7 +62,7 @@ Promise.all([fs.readdir(path.normalize(dirName)), fs.readdir(path.normalize(sour
             console.log(valueFileName);
             return wp.pages().create({
               title: title,
-              content: "<div class=\"autospiel\">" + rendered + "<a class=\"autospiel-button\" href=\"https://slamdata.com/#trial\">Request a trial</a></div>",
+              content: "<div class=\"autospiel\">" + rendered + "</div>",
               status: 'draft'
             });
 	  }));
@@ -81,20 +81,3 @@ Promise.all([fs.readdir(path.normalize(dirName)), fs.readdir(path.normalize(sour
       });
     });
   });
-
-//fs.readFile(path.normalize(menuFileName), 'utf-8', (menuError, menu) => {
-//  var title = dirName.split('/').pop();
-//  var menuPage = "<div class=\"autospiel\">" + markdown.toHTML(mustache.render(menu, { title: title, pages: pages })) + "</div>";
-//  if (menuError) {
-//    console.error(menuError);
-//  }
-//  console.log(menuPage);
-//  console.log(pages);
-//  //wp.pages().create({
-//  //  title: title,
-//  //  content: menuPage,
-//  //  status: 'draft'
-//  //}).then(response => {
-//  //  console.log( response.link );
-//  //}).catch(wpErr => console.error(wpErr));
-//});
