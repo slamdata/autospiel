@@ -4,12 +4,13 @@ var WPAPI = require( 'wpapi' );
 var path = require('path');
 var mustache = require('mustache');
 var markdown = require( "markdown" ).markdown;
-var username = process.argv[2];
-var password = process.argv[3];
-var sourceDirName = process.argv[4];
-var extrasFileName = process.argv[5];
-var menuFileName = process.argv[6];
-var dirName = process.argv[7];
+var wordpress = process.argv[2];
+var username = process.argv[3];
+var password = process.argv[4];
+var sourceDirName = process.argv[5];
+var extrasFileName = process.argv[6];
+var menuFileName = process.argv[7];
+var dirName = process.argv[8];
 var output = "./output";
 var outputExtension = "html";
 var merge = (objects) => {
@@ -18,7 +19,7 @@ var merge = (objects) => {
   return target;
 };
 var wp = new WPAPI({
-    endpoint: 'https://www.slamdata.com/wp-json',
+    endpoint: 'https://' + wordpress + '/wp-json',
     username: username,
     password: password
 });
